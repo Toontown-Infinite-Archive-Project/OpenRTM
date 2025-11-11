@@ -13,7 +13,6 @@ __pycache__/
 *.pyd
 *$py.class
 
-
 # C extensions
 *.so
 
@@ -41,6 +40,7 @@ wheels/
 *.egg
 build.cmd
 resources.mf
+/dependencies/Panda3D
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

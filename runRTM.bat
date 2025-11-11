@@ -1,5 +1,9 @@
-"C:/Panda3D-1.11.0-Py39-x64/python/python.exe" -m pip install -r requirements.txt
+@echo off
+
+rem Read the contents of PYTHON_PATH into %PYTHON_PATH%:
+set /P PYTHON_PATH=<PYTHON_PATH
+
 :top
-"C:/Panda3D-1.11.0-Py39-x64/python/python.exe" -m rtm --hoods TT
+%PYTHON_PATH% -m rtm --hoods TT
 pause
 goto top

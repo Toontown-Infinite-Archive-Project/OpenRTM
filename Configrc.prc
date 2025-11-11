@@ -21,7 +21,7 @@ sync-video #f
 want-anim-panel #f
 
 # Use local copy of ttmodels
-#model-path /e/Clash/resources/
+#model-path /resources/
 model-path .
 dna-directory .
 # Putting this line after ttmodels means models will be read from here first
@@ -34,7 +34,7 @@ default-model-extension .bam
 userfiles-directory ./leveleditor
 
 
-window-title Toontown
+window-title (OpenRTM) Toontown Infinite
 
 # Custom ObjectTypes for Toontown.
 # "barrier" means a vertical wall, with bitmask 0x01
