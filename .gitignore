@@ -40,7 +40,8 @@ wheels/
 *.egg
 build.cmd
 resources.mf
-/dependencies/Panda3D
+dependencies/Panda3D/
+PYTHON_PATH
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
